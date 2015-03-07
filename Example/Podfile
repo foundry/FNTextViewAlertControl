@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'FNTextViewAlertControl', :exclusive => true do
+  pod "FNTextViewAlertControl", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "FNTextViewAlertControl", :path => "../"
+
+  pod 'Kiwi'
+end
